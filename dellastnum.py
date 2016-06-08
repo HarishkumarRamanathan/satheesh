@@ -1,0 +1,6 @@
+num=list(input("Enter numbers"))
+print("unsorted list",num)
+num.sort()
+print("sorted list",num)
+c=len(num)
+print("Result",num[:c-3])
